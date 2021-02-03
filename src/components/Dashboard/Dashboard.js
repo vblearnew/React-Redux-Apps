@@ -5,12 +5,12 @@ import ProjectList from '../Projects/ProjectList'
 class Dashboard extends React.Component {
     render(){
         return (
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 m6">
+            <div className="container">
+                <div className="row">
+                    <div className="col s12 m6">
                         <ProjectList/>
                     </div>
-                    <div class="col s12 m5">
+                    <div className="col s12 m5">
                         <Notification/>
                     </div>
                 </div>

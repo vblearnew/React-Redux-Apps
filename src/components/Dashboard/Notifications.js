@@ -3,7 +3,7 @@ import React from 'react'
 const Notification = () => {
     return(
         <div className="projectNotification">
-            <h2>Notifications</h2>
+            <h4>Notifications</h4>
         </div>
     )
 }
